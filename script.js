@@ -1,7 +1,7 @@
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
-const myImage = new Image(300, 300);
+const myImage = new Image(100, 110);
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 const audio = new Audio("aya.mp3");
@@ -19,8 +19,8 @@ yesBtn.addEventListener("click", () => {
     
 
     //for mobile 
-    if (window.innerWidth <= 700){
-        gif.style.width = "350px";
+    if (window.innerWidth <= 800){
+        gif.style.width = "100px";
     }
 
 });
